@@ -9,8 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catalog</title>
   </head>
@@ -22,7 +22,7 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="pixmart-home-page.html" class="nav__link">About</a>
+            <a href="index.html" class="nav__link">About</a>
           </li>
           <li class="nav__item active">
             <a href="#" class="nav__link">Products</a>
@@ -31,10 +31,10 @@
             <a href="#" class="nav__link">Creators</a>
           </li>
           <li class="nav__item">
-            <a href="pixmart-blog-details.html" class="nav__link">Blog</a>
+            <a href="blog.html" class="nav__link">Blog</a>
           </li>
           <li class="nav__item">
-            <a href="pixmart-contacts.html" class="nav__link">Contacts</a>
+            <a href="contacts.html" class="nav__link">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -83,169 +83,172 @@
             <div class="sidebar-box">
               <p class="sidebar-box-title">Categories</p>
               <div class="checkbox-control">
-                <label class="form-checkbox">
-                  <input
-                    type="checkbox"
-                    class="input-hidden checkbox__input"
-                    name="terms"
-                    required
-                  />
+                <input
+                  type="checkbox"
+                  id="AllCategories-Checkbox"
+                  class="input-hidden checkbox__input"
+                  name="terms"
+                  required
+                />
+                <label class="form-checkbox" for="AllCategories-Checkbox">
                   All Categories</label
                 >
               </div>
               <div class="checkbox-control">
-                <label class="form-checkbox">
-                  <input
-                    type="checkbox"
-                    class="input-hidden checkbox__input"
-                    name="terms"
-                    required
-                  />
+                <input
+                  type="checkbox"
+                  id="Technology-Checkbox"
+                  class="input-hidden checkbox__input"
+                  name="terms"
+                  required
+                />
+                <label class="form-checkbox" for="Technology-Checkbox">
                   Technology</label
                 >
               </div>
               <div class="checkbox-control">
-                <label class="form-checkbox">
-                  <input
-                    type="checkbox"
-                    class="input-hidden checkbox__input"
-                    name="terms"
-                    required
-                  />
+                <input
+                  type="checkbox"
+                  id="Travel&Tourism-Checkbox"
+                  class="input-hidden checkbox__input"
+                  name="terms"
+                  required
+                />
+                <label class="form-checkbox" for="Travel&Tourism-Checkbox">
                   Travel & Tourism</label
                 >
               </div>
               <div class="checkbox-control">
-                <label class="form-checkbox">
-                  <input
-                    type="checkbox"
-                    class="input-hidden checkbox__input"
-                    name="terms"
-                    required
-                  />
+                <input
+                  type="checkbox"
+                  id="Health&Fitness-Checkbox"
+                  class="input-hidden checkbox__input"
+                  name="terms"
+                  required
+                />
+                <label class="form-checkbox" for="Health&Fitness-Checkbox">
                   Health & Fitness</label
                 >
               </div>
               <div class="checkbox-control">
-                <label class="form-checkbox">
-                  <input
-                    type="checkbox"
-                    class="input-hidden checkbox__input"
-                    name="terms"
-                    required
-                  />
+                <input
+                  type="checkbox"
+                  id="E-Commerce-Checkbox"
+                  class="input-hidden checkbox__input"
+                  name="terms"
+                  required
+                />
+                <label class="form-checkbox" for="E-Commerce-Checkbox">
                   E-Commerce</label
                 >
               </div>
               <div class="checkbox-control">
-                <label class="form-checkbox">
-                  <input
-                    type="checkbox"
-                    class="input-hidden checkbox__input"
-                    name="terms"
-                    required
-                  />
+                <input
+                  type="checkbox"
+                  id="Education-Checkbox"
+                  class="input-hidden checkbox__input"
+                  name="terms"
+                  required
+                />
+                <label class="form-checkbox" for="Education-Checkbox">
                   Education</label
                 >
               </div>
               <div class="checkbox-control">
-                <label class="form-checkbox">
-                  <input
-                    type="checkbox"
-                    class="input-hidden checkbox__input"
-                    name="terms"
-                    required
-                  />
+                <input
+                  type="checkbox"
+                  id="Entertainment-Checkbox"
+                  class="input-hidden checkbox__input"
+                  name="terms"
+                  required
+                />
+                <label class="form-checkbox" for="Entertainment-Checkbox">
                   Entertainment</label
                 >
               </div>
               <div class="checkbox-control">
-                <label class="form-checkbox">
-                  <input
-                    type="checkbox"
-                    class="input-hidden checkbox__input"
-                    name="terms"
-                    required
-                  />
+                <input
+                  type="checkbox"
+                  id="Others-Checkbox-1"
+                  class="input-hidden checkbox__input"
+                  name="terms"
+                  required
+                />
+                <label class="form-checkbox" for="Others-Checkbox-1">
                   Others</label
                 >
               </div>
               <div class="checkbox-control">
-                <label class="form-checkbox" for="myCheckbox">
-                  <input
-                    type="checkbox"
-                    id="myCheckbox"
-                    class="input-hidden checkbox__input"
-                    name="terms"
-                    required
-                  />
-                  Others</label
+                <input
+                  type="checkbox"
+                  id="Others-Checkbox-2"
+                  class="input-hidden checkbox__input"
+                  name="terms"
+                  required
+                />
+                <label class="form-checkbox" for="Others-Checkbox-2"
+                  >Others</label
                 >
               </div>
             </div>
             <div class="sidebar-box">
               <p class="sidebar-box-title">Format Type</p>
               <div class="radio-control">
-                <label class="form-radio">
-                  <input
-                    type="radio"
-                    class="input-hidden"
-                    name="type"
-                    value="figma"
-                    required
-                  />
-                  Figma</label
-                >
+                <input
+                  type="radio"
+                  id="Figma-radio"
+                  class="input-hidden"
+                  name="type"
+                  value="figma"
+                  required
+                />
+                <label class="form-radio" for="Figma-radio"> Figma</label>
               </div>
               <div class="radio-control">
-                <label class="form-radio" for="myCheckbox">
-                  <input
-                    type="radio"
-                    id="myCheckbox"
-                    class="input-hidden"
-                    name="type"
-                    value="sketch"
-                    required
-                  />
-                  Sketch</label
-                >
+                <input
+                  type="radio"
+                  id="SketchCheckbox"
+                  class="input-hidden"
+                  name="type"
+                  value="sketch"
+                  required
+                />
+                <label class="form-radio" for="SketchCheckbox"> Sketch</label>
               </div>
               <div class="radio-control">
-                <label class="form-radio" for="myCheckbox">
-                  <input
-                    type="radio"
-                    id="myCheckbox"
-                    class="input-hidden"
-                    name="type"
-                    value="adobe-xd"
-                    required
-                  />
-                  Adobe XD</label
-                >
+                <input
+                  type="radio"
+                  id="AdobeXD-radio"
+                  class="input-hidden"
+                  name="type"
+                  value="adobe-xd"
+                  required
+                />
+                <label class="form-radio" for="AdobeXD-radio"> Adobe XD</label>
               </div>
               <div class="radio-control">
-                <label class="form-radio" for="myCheckbox">
-                  <input
-                    type="radio"
-                    id="myCheckbox"
-                    class="input-hidden"
-                    name="type"
-                    value="adobe-photoshop"
-                    required
-                  />
+                <input
+                  type="radio"
+                  id="AdobePhotoshop-radio"
+                  class="input-hidden"
+                  name="type"
+                  value="adobe-photoshop"
+                  required
+                />
+                <label class="form-radio" for="AdobePhotoshop-radio">
                   Adobe Photoshop</label
                 >
               </div>
               <div class="radio-control">
-                <label class="form-radio" for="myCheckbox">
-                  <input
-                    type="radio"
-                    id="myCheckbox"
-                    class="input-hidden"
-                    name="type"
-                    value="adobe-illustration"
-                    required
-                  />
+                <input
+                  type="radio"
+                  id="AdobeIllustration-radio"
+                  class="input-hidden"
+                  name="type"
+                  value="adobe-illustration"
+                  required
+                />
+                <label class="form-radio" for="AdobeIllustration-radio">
                   Adobe Illustration</label
                 >
               </div>
@@ -359,7 +362,7 @@
             <div class="dropdown-content">
               <p>Showing 12 out of 120 results.</p>
               <div class="dropdown-content__btn">
-                <button type="button" class="btn-small butn-color">
+                <button type="button" class="btn-small btn-color">
                   <svg
                     width="24"
                     height="24"
@@ -463,7 +466,7 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="james"
                 />
                 <span class="catalog-card__label label label--primary"
                   >SOLD OUT</span
@@ -480,7 +483,7 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="jobBlitz"
                 />
                 <span class="catalog-card__label label label--secondary"
                   >NEW
@@ -491,14 +494,41 @@
               <div class="catalog-price__box">
                 <p class="catalog-card__price">€20.99</p>
                 <div class="catalog-card__btn">
-                  <button
-                    class="btn btn--transparent btn-small"
-                    type="button"
-                  ></button>
-                  <button
-                    class="btn btn-color btn-small"
-                    type="button"
-                  ></button>
+                  <button class="btn-small btn--transparent" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.5013 12.5719L12.0013 19.9999L4.50128 12.5719C4.00658 12.0905 3.61692 11.5119 3.35683 10.8726C3.09673 10.2332 2.97184 9.54688 2.99002 8.85687C3.00819 8.16685 3.16904 7.48807 3.46244 6.86327C3.75583 6.23847 4.17541 5.68119 4.69476 5.22651C5.21411 4.77184 5.82198 4.42962 6.48009 4.22141C7.1382 4.01321 7.83228 3.94352 8.51865 4.01673C9.20501 4.08995 9.86878 4.30449 10.4682 4.64684C11.0675 4.98919 11.5895 5.45193 12.0013 6.00593C12.4148 5.45595 12.9374 4.99725 13.5364 4.65854C14.1353 4.31982 14.7978 4.10838 15.4822 4.03745C16.1666 3.96652 16.8584 4.03763 17.5141 4.24632C18.1697 4.45502 18.7753 4.79681 19.2928 5.2503C19.8104 5.70379 20.2287 6.25922 20.5217 6.88182C20.8147 7.50443 20.976 8.18082 20.9956 8.86864C21.0152 9.55647 20.8925 10.2409 20.6354 10.8792C20.3783 11.5174 19.9922 12.0958 19.5013 12.5779"
+                        stroke="#273544"
+                        stroke-opacity="0.55"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn-small btn-color" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z"
+                        stroke="#F8F7FF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </article>
@@ -509,7 +539,7 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="skyHomes"
                 />
                 <span class="catalog-card__label label label--blue"
                   >POPULAR
@@ -520,8 +550,41 @@
               <div class="catalog-price__box">
                 <p class="catalog-card__price">€45.99</p>
                 <div class="catalog-card__btn">
-                  <button class="btn favorite"></button>
-                  <button class="btn basket"></button>
+                  <button class="btn-small btn--transparent" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.5013 12.5719L12.0013 19.9999L4.50128 12.5719C4.00658 12.0905 3.61692 11.5119 3.35683 10.8726C3.09673 10.2332 2.97184 9.54688 2.99002 8.85687C3.00819 8.16685 3.16904 7.48807 3.46244 6.86327C3.75583 6.23847 4.17541 5.68119 4.69476 5.22651C5.21411 4.77184 5.82198 4.42962 6.48009 4.22141C7.1382 4.01321 7.83228 3.94352 8.51865 4.01673C9.20501 4.08995 9.86878 4.30449 10.4682 4.64684C11.0675 4.98919 11.5895 5.45193 12.0013 6.00593C12.4148 5.45595 12.9374 4.99725 13.5364 4.65854C14.1353 4.31982 14.7978 4.10838 15.4822 4.03745C16.1666 3.96652 16.8584 4.03763 17.5141 4.24632C18.1697 4.45502 18.7753 4.79681 19.2928 5.2503C19.8104 5.70379 20.2287 6.25922 20.5217 6.88182C20.8147 7.50443 20.976 8.18082 20.9956 8.86864C21.0152 9.55647 20.8925 10.2409 20.6354 10.8792C20.3783 11.5174 19.9922 12.0958 19.5013 12.5779"
+                        stroke="#273544"
+                        stroke-opacity="0.55"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn-small btn-color" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z"
+                        stroke="#F8F7FF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </article>
@@ -532,17 +595,52 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="foodish"
                 />
-                <span class="catalog-card__label label-blue">POPULAR</span>
+                <span class="catalog-card__label label label--blue"
+                  >POPULAR</span
+                >
               </div>
               <h4 class="catalog-card__title">Foodish Catering</h4>
               <p class="topic">Food · Events</p>
               <div class="catalog-price__box">
                 <p class="catalog-card__price">€15.99</p>
                 <div class="catalog-card__btn">
-                  <button class="btn favorite"></button>
-                  <button class="btn basket"></button>
+                  <button class="btn-small btn--transparent" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.5013 12.5719L12.0013 19.9999L4.50128 12.5719C4.00658 12.0905 3.61692 11.5119 3.35683 10.8726C3.09673 10.2332 2.97184 9.54688 2.99002 8.85687C3.00819 8.16685 3.16904 7.48807 3.46244 6.86327C3.75583 6.23847 4.17541 5.68119 4.69476 5.22651C5.21411 4.77184 5.82198 4.42962 6.48009 4.22141C7.1382 4.01321 7.83228 3.94352 8.51865 4.01673C9.20501 4.08995 9.86878 4.30449 10.4682 4.64684C11.0675 4.98919 11.5895 5.45193 12.0013 6.00593C12.4148 5.45595 12.9374 4.99725 13.5364 4.65854C14.1353 4.31982 14.7978 4.10838 15.4822 4.03745C16.1666 3.96652 16.8584 4.03763 17.5141 4.24632C18.1697 4.45502 18.7753 4.79681 19.2928 5.2503C19.8104 5.70379 20.2287 6.25922 20.5217 6.88182C20.8147 7.50443 20.976 8.18082 20.9956 8.86864C21.0152 9.55647 20.8925 10.2409 20.6354 10.8792C20.3783 11.5174 19.9922 12.0958 19.5013 12.5779"
+                        stroke="#273544"
+                        stroke-opacity="0.55"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn-small btn-color">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z"
+                        stroke="#F8F7FF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </article>
@@ -553,17 +651,52 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="mediCare"
                 />
-                <span class="catalog-card__label label-green">NEW</span>
+                <span class="catalog-card__label label label--secondary"
+                  >NEW</span
+                >
               </div>
               <h4 class="catalog-card__title">Caring Hearts</h4>
               <p class="topic">Healthcare · Support</p>
               <div class="catalog-price__box">
                 <p class="catalog-card__price">€19.99</p>
                 <div class="catalog-card__btn">
-                  <button class="elect"></button>
-                  <button class="basket"></button>
+                  <button class="btn-small btn--transparent" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.5013 12.5719L12.0013 19.9999L4.50128 12.5719C4.00658 12.0905 3.61692 11.5119 3.35683 10.8726C3.09673 10.2332 2.97184 9.54688 2.99002 8.85687C3.00819 8.16685 3.16904 7.48807 3.46244 6.86327C3.75583 6.23847 4.17541 5.68119 4.69476 5.22651C5.21411 4.77184 5.82198 4.42962 6.48009 4.22141C7.1382 4.01321 7.83228 3.94352 8.51865 4.01673C9.20501 4.08995 9.86878 4.30449 10.4682 4.64684C11.0675 4.98919 11.5895 5.45193 12.0013 6.00593C12.4148 5.45595 12.9374 4.99725 13.5364 4.65854C14.1353 4.31982 14.7978 4.10838 15.4822 4.03745C16.1666 3.96652 16.8584 4.03763 17.5141 4.24632C18.1697 4.45502 18.7753 4.79681 19.2928 5.2503C19.8104 5.70379 20.2287 6.25922 20.5217 6.88182C20.8147 7.50443 20.976 8.18082 20.9956 8.86864C21.0152 9.55647 20.8925 10.2409 20.6354 10.8792C20.3783 11.5174 19.9922 12.0958 19.5013 12.5779"
+                        stroke="#273544"
+                        stroke-opacity="0.55"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn-small btn-color" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z"
+                        stroke="#F8F7FF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </article>
@@ -574,9 +707,11 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="upnews"
                 />
-                <span class="catalog-card__label label-white">SOLD OUT</span>
+                <span class="catalog-card__label label label--primary"
+                  >SOLD OUT</span
+                >
               </div>
               <h4 class="catalog-card__title">Gaming Rise</h4>
               <p class="topic">eSports · Trends</p>
@@ -589,9 +724,11 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="playcut"
                 />
-                <span class="catalog-card__label label-white">SOLD OUT</span>
+                <span class="catalog-card__label label label--primary"
+                  >SOLD OUT</span
+                >
               </div>
               <h4 class="catalog-card__title">Edit Pro</h4>
               <p class="topic">Design · Tools</p>
@@ -604,17 +741,52 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="withCash"
                 />
-                <span class="catalog-card__label label-green">NEW</span>
+                <span class="catalog-card__label label label--secondary"
+                  >NEW</span
+                >
               </div>
               <h4 class="catalog-card__title">Banking Redefined</h4>
               <p class="topic">Finance · Secure</p>
               <div class="catalog-price__box">
                 <p class="catalog-card__price">€25.99</p>
                 <div class="catalog-card__btn">
-                  <button class="elect"></button>
-                  <button class="basket"></button>
+                  <button class="btn-small btn--transparent" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.5013 12.5719L12.0013 19.9999L4.50128 12.5719C4.00658 12.0905 3.61692 11.5119 3.35683 10.8726C3.09673 10.2332 2.97184 9.54688 2.99002 8.85687C3.00819 8.16685 3.16904 7.48807 3.46244 6.86327C3.75583 6.23847 4.17541 5.68119 4.69476 5.22651C5.21411 4.77184 5.82198 4.42962 6.48009 4.22141C7.1382 4.01321 7.83228 3.94352 8.51865 4.01673C9.20501 4.08995 9.86878 4.30449 10.4682 4.64684C11.0675 4.98919 11.5895 5.45193 12.0013 6.00593C12.4148 5.45595 12.9374 4.99725 13.5364 4.65854C14.1353 4.31982 14.7978 4.10838 15.4822 4.03745C16.1666 3.96652 16.8584 4.03763 17.5141 4.24632C18.1697 4.45502 18.7753 4.79681 19.2928 5.2503C19.8104 5.70379 20.2287 6.25922 20.5217 6.88182C20.8147 7.50443 20.976 8.18082 20.9956 8.86864C21.0152 9.55647 20.8925 10.2409 20.6354 10.8792C20.3783 11.5174 19.9922 12.0958 19.5013 12.5779"
+                        stroke="#273544"
+                        stroke-opacity="0.55"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn-small btn-color" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z"
+                        stroke="#F8F7FF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </article>
@@ -625,17 +797,52 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="journeey"
                 />
-                <span class="catalog-card__label label-blue">POPULAR</span>
+                <span class="catalog-card__label label label--blue"
+                  >POPULAR</span
+                >
               </div>
               <h4 class="catalog-card__title">Exploring Fun</h4>
               <p class="topic">Travel · Adventure</p>
               <div class="catalog-price__box">
                 <p class="catalog-card__price">€41.99</p>
                 <div class="catalog-card__btn">
-                  <button class="btn favorite"></button>
-                  <button class="btn basket"></button>
+                  <button class="btn-small btn--transparent" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.5013 12.5719L12.0013 19.9999L4.50128 12.5719C4.00658 12.0905 3.61692 11.5119 3.35683 10.8726C3.09673 10.2332 2.97184 9.54688 2.99002 8.85687C3.00819 8.16685 3.16904 7.48807 3.46244 6.86327C3.75583 6.23847 4.17541 5.68119 4.69476 5.22651C5.21411 4.77184 5.82198 4.42962 6.48009 4.22141C7.1382 4.01321 7.83228 3.94352 8.51865 4.01673C9.20501 4.08995 9.86878 4.30449 10.4682 4.64684C11.0675 4.98919 11.5895 5.45193 12.0013 6.00593C12.4148 5.45595 12.9374 4.99725 13.5364 4.65854C14.1353 4.31982 14.7978 4.10838 15.4822 4.03745C16.1666 3.96652 16.8584 4.03763 17.5141 4.24632C18.1697 4.45502 18.7753 4.79681 19.2928 5.2503C19.8104 5.70379 20.2287 6.25922 20.5217 6.88182C20.8147 7.50443 20.976 8.18082 20.9956 8.86864C21.0152 9.55647 20.8925 10.2409 20.6354 10.8792C20.3783 11.5174 19.9922 12.0958 19.5013 12.5779"
+                        stroke="#273544"
+                        stroke-opacity="0.55"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn-small btn-color" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z"
+                        stroke="#F8F7FF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </article>
@@ -646,17 +853,52 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="ezMart"
                 />
-                <span class="catalog-card__label label-blue">POPULAR</span>
+                <span class="catalog-card__label label label--blue"
+                  >POPULAR</span
+                >
               </div>
               <h4 class="catalog-card__title">Admin Dashboard</h4>
               <p class="topic">Data · Tools</p>
               <div class="catalog-price__box">
                 <p class="catalog-card__price">€15.99</p>
                 <div class="catalog-card__btn">
-                  <button class="btn favorite"></button>
-                  <button class="btn basket"></button>
+                  <button class="btn-small btn--transparent" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.5013 12.5719L12.0013 19.9999L4.50128 12.5719C4.00658 12.0905 3.61692 11.5119 3.35683 10.8726C3.09673 10.2332 2.97184 9.54688 2.99002 8.85687C3.00819 8.16685 3.16904 7.48807 3.46244 6.86327C3.75583 6.23847 4.17541 5.68119 4.69476 5.22651C5.21411 4.77184 5.82198 4.42962 6.48009 4.22141C7.1382 4.01321 7.83228 3.94352 8.51865 4.01673C9.20501 4.08995 9.86878 4.30449 10.4682 4.64684C11.0675 4.98919 11.5895 5.45193 12.0013 6.00593C12.4148 5.45595 12.9374 4.99725 13.5364 4.65854C14.1353 4.31982 14.7978 4.10838 15.4822 4.03745C16.1666 3.96652 16.8584 4.03763 17.5141 4.24632C18.1697 4.45502 18.7753 4.79681 19.2928 5.2503C19.8104 5.70379 20.2287 6.25922 20.5217 6.88182C20.8147 7.50443 20.976 8.18082 20.9956 8.86864C21.0152 9.55647 20.8925 10.2409 20.6354 10.8792C20.3783 11.5174 19.9922 12.0958 19.5013 12.5779"
+                        stroke="#273544"
+                        stroke-opacity="0.55"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn-small btn-color" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z"
+                        stroke="#F8F7FF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </article>
@@ -667,17 +909,52 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="schoolHub"
                 />
-                <span class="catalog-card__label label-green">NEW</span>
+                <span class="catalog-card__label label label--secondary"
+                  >NEW</span
+                >
               </div>
               <h4 class="catalog-card__title">Analytical Dashboard</h4>
               <p class="topic">Data · Tools</p>
               <div class="catalog-price__box">
                 <p class="catalog-card__price">€10.99</p>
                 <div class="catalog-card__btn">
-                  <button class="elect"></button>
-                  <button class="basket"></button>
+                  <button class="btn-small btn--transparent" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.5013 12.5719L12.0013 19.9999L4.50128 12.5719C4.00658 12.0905 3.61692 11.5119 3.35683 10.8726C3.09673 10.2332 2.97184 9.54688 2.99002 8.85687C3.00819 8.16685 3.16904 7.48807 3.46244 6.86327C3.75583 6.23847 4.17541 5.68119 4.69476 5.22651C5.21411 4.77184 5.82198 4.42962 6.48009 4.22141C7.1382 4.01321 7.83228 3.94352 8.51865 4.01673C9.20501 4.08995 9.86878 4.30449 10.4682 4.64684C11.0675 4.98919 11.5895 5.45193 12.0013 6.00593C12.4148 5.45595 12.9374 4.99725 13.5364 4.65854C14.1353 4.31982 14.7978 4.10838 15.4822 4.03745C16.1666 3.96652 16.8584 4.03763 17.5141 4.24632C18.1697 4.45502 18.7753 4.79681 19.2928 5.2503C19.8104 5.70379 20.2287 6.25922 20.5217 6.88182C20.8147 7.50443 20.976 8.18082 20.9956 8.86864C21.0152 9.55647 20.8925 10.2409 20.6354 10.8792C20.3783 11.5174 19.9922 12.0958 19.5013 12.5779"
+                        stroke="#273544"
+                        stroke-opacity="0.55"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button class="btn-small btn-color" type="button">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.9984 9V6C15.9984 3.79086 14.2076 2 11.9984 2C9.78928 2 7.99842 3.79086 7.99842 6V9M3.59042 10.352L2.99042 16.752C2.81982 18.5717 2.73452 19.4815 3.03647 20.1843C3.30171 20.8016 3.76653 21.3121 4.35643 21.6338C5.02794 22 5.94178 22 7.76946 22H16.2274C18.055 22 18.9689 22 19.6404 21.6338C20.2303 21.3121 20.6951 20.8016 20.9604 20.1843C21.2623 19.4815 21.177 18.5717 21.0064 16.752L20.4064 10.352C20.2624 8.81535 20.1903 8.04704 19.8448 7.46616C19.5404 6.95458 19.0908 6.54511 18.553 6.28984C17.9424 6 17.1707 6 15.6274 6L8.36946 6C6.82611 6 6.05443 6 5.44383 6.28984C4.90608 6.54511 4.45642 6.95458 4.15208 7.46616C3.80651 8.04704 3.73448 8.81534 3.59042 10.352Z"
+                        stroke="#F8F7FF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </article>
@@ -688,9 +965,11 @@
                   class="catalog-card__image"
                   width="305"
                   height="272"
-                  alt="text"
+                  alt="kidzArt"
                 />
-                <span class="catalog-card__label label-white">SOLD OUT</span>
+                <span class="catalog-card__label label label--primary"
+                  >SOLD OUT</span
+                >
               </div>
               <h4 class="catalog-card__title">Kindergarten</h4>
               <p class="topic">Education · Kids</p>
