@@ -182,7 +182,7 @@ section {
     rgba(255, 255, 255, 1)
   );
 }
-.baner-content__wraper {
+.baner-content__wrapper {
   flex: 0 1 520px;
   padding-top: 74px;
 }
@@ -690,7 +690,7 @@ details[open] summary::after {
   overflow: hidden;
   transition: box-shadow 0.5s linear;
 }
-.footer-wraper {
+.footer-wrapper {
   margin-bottom: 135px;
 }
 .footer-top {
@@ -764,7 +764,7 @@ details[open] summary::after {
 .footer-bottom-links a:hover {
   opacity: 0.7;
 }
-.newslatter {
+.newslatter-baner {
   display: flex;
   gap: 14px;
   justify-content: center;
@@ -844,7 +844,7 @@ details[open] summary::after {
 .sidebar-alt {
   flex: 1 0 260px;
 }
-.blog-wraper {
+.blog-wrapper {
   display: flex;
   gap: 39px;
 }
@@ -1005,7 +1005,7 @@ details[open] summary::after {
 .featured-articles__link:hover {
   opacity: 0.8;
 }
-.featured-articles__wraper {
+.featured-articles__wrapper {
   display: flex;
   gap: 24px;
 }
