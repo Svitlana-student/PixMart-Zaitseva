@@ -152,19 +152,23 @@ svg {
 .btn--full {
   width: 100%;
 }
-
-h1 {
+/* h1 {
+  font: 52px/62px var(--font-secondary);
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  color: rgba(13, 13, 21, 1);
+  margin: 0 0 30px;
+} */
+.baner {
   font: 52px/62px var(--font-secondary);
   font-weight: bold;
   letter-spacing: -0.5px;
   color: rgba(13, 13, 21, 1);
   margin: 0 0 30px;
 }
-
 section {
   margin-bottom: 120px;
 }
-
 .heading {
   display: flex;
   padding-bottom: 120px;
@@ -178,19 +182,16 @@ section {
     rgba(255, 255, 255, 1)
   );
 }
-
 .baner-content__wraper {
   flex: 0 1 520px;
   padding-top: 74px;
 }
-
 .is-block {
   display: block;
 }
 .mark {
   color: var(--color-blue);
 }
-
 .baner-content__text {
   font-size: 20px;
   font-weight: 500;
@@ -201,7 +202,6 @@ section {
   display: flex;
   gap: 24px;
 }
-
 .baner-img {
   position: relative;
   display: grid;
@@ -560,7 +560,7 @@ h5 {
   gap: 40px;
   background-image: radial-gradient(#f0f6fd, var(--color-white));
 }
-.faq-titlle {
+.faq-title {
   flex: 0 1 620px;
 }
 .faq-details {
@@ -909,6 +909,7 @@ details[open] summary::after {
   z-index: 2;
 }
 .blog-categories__list_alt {
+  font-weight: 600;
   padding: 8px 0 0 27px;
 }
 .blog-article__item {
@@ -1302,6 +1303,7 @@ input:checked ~ label::after {
 }
 .baner-catalog__text {
   margin: 0;
+  display: block;
 }
 .catalog {
   display: flex;
