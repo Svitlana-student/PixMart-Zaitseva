@@ -1572,6 +1572,22 @@ input[type="checkbox"].input-hidden:checked:disabled + .form-switcher__custom {
   color: var(--color-light-grey);
   pointer-events: none;
 }
+.input-hidden:not(:disabled):not(:checked) + label:hover::before {
+  border-color: rgb(179, 215, 255, 1);
+}
+.input-hidden:not(:disabled):active + label::before {
+  background-color: rgb(179, 215, 255, 1);
+  border-color: rgb(179, 215, 255, 1);
+}
+.input-hidden:focus + label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.input-hidden:focus:not(:checked) + label::before {
+  border-color: rgb(128, 189, 255, 1);
+}
+.input-hidden:disabled + label::before {
+  background-color: rgb(233, 236, 239, 1);
+}
 .range-price {
   display: flex;
   justify-content: space-between;
