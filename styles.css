@@ -197,7 +197,7 @@ svg {
 }
 .baner {
   font: 52px/62px var(--font-secondary);
-  font-weight: bold;
+  /* font-weight: bold; */
   letter-spacing: -0.5px;
   color: rgba(13, 13, 21, 1);
   margin: 0 0 30px;
@@ -776,9 +776,6 @@ details[open] summary {
   overflow: hidden;
   transition: box-shadow 0.5s linear;
 }
-footer {
-  margin
-}
 .footer-wrapper {
   margin-bottom: 135px;
 }
@@ -805,7 +802,8 @@ footer {
 }
 .footer-box {
   display: flex;
-  gap: 60px;
+  gap: 64px;
+  flex-basis: 514px;
 }
 .title-menu {
   display: block;
@@ -1140,6 +1138,11 @@ footer {
   align-items: flex-end;
   padding-top: 25px;
   margin-bottom: 122px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(240, 246, 253, 1),
+    rgba(255, 255, 255, 0)
+  );
 }
 .contact-info {
   flex: 0 1 618px;
@@ -1378,7 +1381,7 @@ input:checked ~ label::after {
 .heading-catalog {
   background-image: url(assets/background-shadow.svg);
   width: 100%;
-  height: 288px;
+  /* height: 288px; */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1442,7 +1445,7 @@ input:checked ~ label::after {
 }
 .catalog-list {
   display: flex;
-  gap: 32px;
+  gap: 31px;
   row-gap: 30px;
   flex-wrap: wrap;
   position: relative;
@@ -1468,11 +1471,11 @@ input:checked ~ label::after {
   position: relative;
   border-radius: var(--radius);
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .catalog-card__title {
   color: var(--color-dark);
-  font: 700 24px/32px var(--font-secondary);
+  font: 700 20px/26px var(--font-secondary);
   display: flex;
   margin-top: 20px;
   margin-bottom: 0;
@@ -1482,6 +1485,12 @@ input:checked ~ label::after {
   color: var(--color-dark);
   font: 700 20px/26px var(--font-secondary);
   margin: 0;
+}
+.catalog-card .topic {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+  margin-top: 0;
 }
 .catalog-price__box {
   display: flex;
@@ -1499,25 +1508,30 @@ input:checked ~ label::after {
   left: 16px;
   z-index: 2;
 }
-.sidebar-form {
-}
 .sidebar-box {
   font-size: 14px;
   line-height: 20px;
   color: var(--color-dark);
-  margin-bottom: 36px;
+  margin-bottom: 43px;
+}
+.sidebar-box-radio {
+  margin-bottom: 31px;
+}
+.sidebar-box-switcher {
+  margin-bottom: 30px;
 }
 .sidebar-box-title {
   display: block;
   font: 700 24px/32px var(--font-secondary);
   color: var(--color-dark);
   margin-bottom: 26px;
+  margin-top: 0;
 }
 .checkbox-control {
   font-size: 14px;
   line-height: 20px;
   color: var(--color-dark);
-  margin-bottom: 9px;
+  margin-bottom: 16px;
 }
 .form-checkbox,
 .radio-control {
@@ -1563,11 +1577,12 @@ input:checked ~ label::after {
   display: flex;
   gap: 8px;
   align-items: center;
+  margin-bottom: 4px;
 }
 .form-switcher {
   display: flex;
   gap: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   align-items: center;
 }
 .form-switcher__custom {
@@ -1704,4 +1719,6 @@ input[type="range"]::-webkit-slider-thumb {
   display: block;
   margin: 48px auto;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 117px;
 }
