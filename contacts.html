@@ -16,28 +16,35 @@
   </head>
   <body>
     <header class="header container">
-      <a href="index.html" class="logo-small"
-        ><img src="assets/Logo-white.svg" alt="logo" width="107" height="24" />
-      </a>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="index.html" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="catalog.html" class="nav__link">Products</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Creators</a>
-          </li>
-          <li class="nav__item">
-            <a href="blog.html" class="nav__link">Blog </a>
-          </li>
-          <li class="nav__item active">
-            <a href="#" class="nav__link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header-logo-nav">
+        <a href="index.html" class="logo-small"
+          ><img
+            src="assets/Logo-white.svg"
+            alt="logo"
+            width="107"
+            height="24"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="catalog.html" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Creators</a>
+            </li>
+            <li class="nav__item">
+              <a href="blog.html" class="nav__link">Blog </a>
+            </li>
+            <li class="nav__item active">
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div class="group-buttons">
         <form class="search" method="post">
           <input
@@ -69,7 +76,7 @@
     <main>
       <div class="contact-information container">
         <div class="contact-info">
-          <span class="name-content">CONTACT</span>
+          <span class="name-content is-block">CONTACT</span>
           <h1 class="baner">
             <strong class="is-block">Get in Touch</strong>
             <strong class="is-block">with Us</strong>
@@ -78,7 +85,7 @@
             We are here to help you navigate your creative journey. Reach out
             for any questions, support, or feedback.
           </p>
-          <a href="pixmart-catalog-page.html" class="btn btn-color">Shop Now</a>
+          <a href="catalog.html" class="btn btn-color">Shop Now</a>
           <div class="contact-information__alt">
             <a href="+1555123-4567" class="contact-information__link">
               <svg
@@ -137,6 +144,7 @@
           </div>
           <div class="location">
             <iframe
+              class="map-frame"
               title="example-content"
               width="600"
               height="450"
@@ -186,6 +194,7 @@
               class="form-control__input"
               minlength="3"
               required
+              placeholder="Amelia Robert Johnson"
             />
           </div>
           <div class="form-control">
@@ -198,6 +207,7 @@
               class="form-control__input"
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               required
+              placeholder="amelia.robertjohnson@pixmart.com"
             />
           </div>
           <div class="form-select">
@@ -209,9 +219,11 @@
           </div>
           <div class="form-control">
             <label class="form-control__label" for="message"> Message </label>
-            <textarea id="message" class="form-control__textarea">
-            Enter your message </textarea
-            >
+            <textarea
+              id="message"
+              class="form-control__textarea"
+              placeholder="Enter your message"
+            ></textarea>
           </div>
           <div class="form-block">
             <div class="form-block__wrapper">

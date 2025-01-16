@@ -202,6 +202,11 @@ svg {
   color: rgba(13, 13, 21, 1);
   margin: 0 0 30px;
 }
+
+.contact-information .baner {
+  margin: 14px 0 16px 0;
+}
+
 section {
   margin-bottom: 120px;
 }
@@ -1135,9 +1140,8 @@ details[open] summary {
 .contact-information {
   display: flex;
   gap: 40px;
-  align-items: flex-end;
-  padding-top: 25px;
-  margin-bottom: 122px;
+  padding-top: 64px;
+  margin-bottom: 176px;
   background-image: linear-gradient(
     to bottom,
     rgba(240, 246, 253, 1),
@@ -1146,10 +1150,10 @@ details[open] summary {
 }
 .contact-info {
   flex: 0 1 618px;
-  padding-top: 40px;
+  margin-bottom: 18px;
 }
 .contact-information__description {
-  margin-bottom: 16px;
+  margin-bottom: 34px;
 }
 .contact-info .btn {
   font-size: 16px;
@@ -1192,6 +1196,9 @@ iframe {
   height: 100%;
   filter: grayscale(1);
 }
+.map-frame {
+  border-radius: 20px;
+}
 .location-point {
   background-color: var(--color-white);
   border-radius: 10px;
@@ -1227,11 +1234,11 @@ iframe {
   background-color: var(--color-white);
   box-shadow: 0 4px 40px 0 rgba(29, 57, 95, 0.08);
   border-radius: var(--radius);
-  padding: 32px;
+  padding: 34px;
   font-size: 14px;
   line-height: 20px;
   color: var(--color-dark);
-  margin-top: 172px;
+  margin-top: 129px;
 }
 .form-control {
   display: flex;
@@ -1244,7 +1251,7 @@ iframe {
 }
 .form-control__input::placeholder,
 .form-control__textarea::placeholder {
-  color: var(--color-dark);
+  color: var(--color-grey);
 }
 .form-control__input,
 .form-control__textarea {
