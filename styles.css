@@ -22,6 +22,7 @@ body {
   line-height: 28px;
   background-color: var(--color-white);
   min-width: auto;
+  overflow: scroll;
 }
 .header {
   display: flex;
@@ -30,6 +31,10 @@ body {
   gap: 16px;
   padding-top: 25px;
   padding-bottom: 24px;
+}
+.header-logo-nav {
+  display: flex;
+  align-items: center;
 }
 img {
   max-width: 100%;
@@ -42,6 +47,7 @@ img {
   padding-left: 80px;
   padding-right: 80px;
 }
+
 .nav__item.active .nav__link {
   color: var(--color-blue);
 }
@@ -65,11 +71,14 @@ img {
 .logo {
   margin: 0;
 }
+
 .nav {
   font-size: 14px;
   line-height: 20px;
   font-weight: 600;
+  margin-left: 44px;
 }
+
 .nav__list {
   list-style: none;
   display: flex;
@@ -198,8 +207,8 @@ section {
 }
 .heading {
   display: flex;
-  padding-bottom: 120px;
-  padding-top: 48px;
+  padding-bottom: 47px;
+  padding-top: 49px;
   justify-content: space-between;
   gap: 30px;
   overflow: hidden;
@@ -256,14 +265,14 @@ section {
 }
 .baner__img-svg-top {
   position: absolute;
-  top: 9px;
-  right: 74px;
+  top: -1px;
+  right: 34px;
   z-index: 3;
 }
 .baner__img-svg-bottom {
   position: absolute;
-  bottom: 42px;
-  left: 30px;
+  bottom: 1px;
+  left: 0px;
   z-index: 3;
 }
 .products-list {
@@ -281,6 +290,7 @@ section {
   border-radius: var(--radius);
   overflow: hidden;
   margin: 0 0 16px;
+  height: 272px;
 }
 .label--product {
   position: absolute;
@@ -310,7 +320,7 @@ section {
   background-color: rgba(244, 247, 250, 1);
   border-radius: 20px;
   height: 224px;
-  padding: 32px;
+  padding: 36px;
 }
 .products-text {
   text-align: center;
@@ -350,6 +360,9 @@ section {
   letter-spacing: -0.5px;
   color: rgba(13, 13, 21, 1);
 }
+.categories-img-fake {
+  height: 12px;
+}
 .slide .categories-title {
   margin: 16px 0 8px 0;
 }
@@ -366,11 +379,13 @@ section {
 }
 .categories-link {
   text-decoration-line: none;
+  width: 100%;
 }
 .slide:hover {
   background-color: var(--color-blue);
   color: var(--color-blue);
 }
+
 .slide:hover h3 {
   color: rgba(248, 247, 255, 1);
 }
@@ -388,7 +403,7 @@ section {
   width: 752px;
 }
 .categories-description__text {
-  margin-bottom: 32px;
+  margin-bottom: 29px;
 }
 .trending__heading {
   display: flex;
@@ -423,6 +438,7 @@ section {
   font-weight: 700;
   letter-spacing: -0.5px;
   color: rgba(34, 34, 34, 1);
+  margin: 12px 0;
 }
 .product-price {
   font-weight: 500;
@@ -453,7 +469,6 @@ section {
 .products-section {
   display: flex;
   justify-content: space-between;
-  gap: 32px;
 }
 .products-text {
   margin: 20px 0px 0px 0px;
@@ -471,6 +486,10 @@ section {
   gap: 16px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 9px;
+}
+.product-name p {
+  margin: 0;
 }
 .name-content__offers {
   display: block;
@@ -483,6 +502,8 @@ section {
   letter-spacing: -0.5px;
   color: rgba(34, 34, 34, 1);
   text-align: center;
+  margin-top: 14px;
+  margin-bottom: 48px;
 }
 
 .pricing-wrapper {
@@ -490,6 +511,7 @@ section {
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
+  padding-top: 32px;
 }
 .pricing-title {
   font: 20px/26px var(--font-secondary);
@@ -504,16 +526,20 @@ section {
   border: 2px solid transparent;
   border-radius: var(--radius);
   position: relative;
-  padding: 29px 30px 31px;
+  padding: 32px;
   flex: 1 0 30%;
 }
 
 .pricing-item__alt {
   border-color: var(--color-blue);
-  transform: translateY(-33px);
-  margin-top: 48px;
+  transform: translateY(-32px);
+}
+
+.price-item {
+  margin-top: 14px;
 }
 .price {
+  font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 36px;
   line-height: 48px;
@@ -533,6 +559,7 @@ section {
   position: relative;
   list-style: none;
   margin: 0;
+  margin-top: 31px;
   padding: 39px 0 23px 0;
   border-top: 2px solid rgba(31, 50, 71, 0.27);
   font-size: 16px;
@@ -557,6 +584,7 @@ section {
   z-index: 2;
 }
 .pricing-label {
+  font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -580,25 +608,33 @@ section {
 }
 .faq-title {
   flex: 0 1 620px;
+  padding-bottom: 6px;
 }
 .faq-content__title {
   font: 36px/48px var(--font-secondary);
   font-weight: 700;
   letter-spacing: -0.5px;
+  margin: 16px 0 32px 0;
   color: rgba(34, 34, 34, 1);
 }
 .faq-details {
   flex: 1 0 620px;
 }
+
 .faq-details details {
-  margin-bottom: 17px;
+  margin-bottom: 16px;
   background-color: var(--color-white);
   border: 2px solid transparent;
   box-shadow: 0 4px 40px rgba(29, 57, 95, 0.08);
   border-radius: 10px;
 }
+
+.faq-details details:last-child {
+  margin-bottom: 0;
+}
+
 summary {
-  padding: 24px 70px 24px 24px;
+  padding: 27px 70px 27px 24px;
   font: 700 20px/26px var(--font-secondary);
   color: var(--color-dark);
   position: relative;
@@ -631,35 +667,47 @@ details[open] summary::after {
   background-image: url(assets/chevron-up.svg);
   background-repeat: no-repeat;
 }
+details[open] summary {
+  padding: 24px 70px 16px 24px;
+}
+
 .faq-text {
   color: rgba(13, 13, 21, 1);
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  padding: 0 24px 8px 24px;
+  margin: 0;
+  padding: 0 24px 24px 24px;
 }
 .blogs {
-  margin-bottom: 120px;
+  margin-bottom: 184px;
 }
 .blogs-box {
   display: flex;
   gap: 16px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 17px;
 }
 .blogs-title {
   font: 36px/48px var(--font-secondary);
   font-weight: 700;
   letter-spacing: -0.5px;
   color: rgba(34, 34, 34, 1);
+  margin-top: 12px;
 }
 .blog-designation {
   font: 28px/36px var(--font-secondary);
   font-weight: bold;
   letter-spacing: -0.5px;
   color: rgba(13, 13, 21, 1);
-  margin-bottom: 8px;
+  margin-bottom: 5px;
+  margin-top: 24px;
+}
+.topic-time {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .link-article {
@@ -671,6 +719,7 @@ details[open] summary::after {
   padding-top: 16px;
   padding-right: 31px;
   transition: opacity var(--transition);
+  margin-bottom: 31px;
 }
 .link-article:hover {
   color: var(--color-light-blue);
@@ -718,6 +767,7 @@ details[open] summary::after {
 }
 .blogs-item__img__small {
   width: 100%;
+  height: 289px;
 }
 .blogs-item__img {
   position: relative;
@@ -726,13 +776,16 @@ details[open] summary::after {
   overflow: hidden;
   transition: box-shadow 0.5s linear;
 }
+footer {
+  margin
+}
 .footer-wrapper {
   margin-bottom: 135px;
 }
 .footer-top {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 63px;
+  margin-bottom: 70px;
 }
 .logo-big {
   display: block;
@@ -743,6 +796,9 @@ details[open] summary::after {
   line-height: 24px;
   flex-basis: 320px;
   color: var(--color-dark);
+  width: 320px;
+  height: 146px;
+  margin-top: -8px;
 }
 .footer-content p {
   margin: 0 0 10px;
@@ -762,7 +818,7 @@ details[open] summary::after {
   padding: 0;
   list-style: none;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 32px;
 }
 .title-menu {
   margin-bottom: 8px;
