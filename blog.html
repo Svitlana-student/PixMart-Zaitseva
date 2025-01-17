@@ -3,41 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="From our inspiring illustrations to dynamic UI/UX kits, elevate your projects with our premium digital design resources"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Page</title>
   </head>
   <body>
     <header class="header container">
-      <a href="#" class="logo-small"
-        ><img src="assets/Logo-white.svg" alt="logo" width="107" height="24" />
-      </a>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="index.html" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="catalog.html" class="nav__link">Products</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Creators</a>
-          </li>
-          <li class="nav__item active">
-            <a href="#" class="nav__link">Blog</a>
-          </li>
-          <li class="nav__item">
-            <a href="contacts.html" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header-logo-nav">
+        <a href="#" class="logo-small"
+          ><img
+            src="assets/Logo-white.svg"
+            alt="logo"
+            width="107"
+            height="24"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="catalog.html" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Creators</a>
+            </li>
+            <li class="nav__item active">
+              <a href="#" class="nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="contacts.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div class="group-buttons">
         <form class="search" method="post">
           <input
@@ -138,9 +150,7 @@
             will help you master typography, transforming your creations into
             eye-catching masterpieces.
           </p>
-          <h4 class="blog-categories__title">
-            1. Understand Typeface Selection
-          </h4>
+          <h4 class="blog-title">1. Understand Typeface Selection</h4>
           <p class="blog-content__text">
             The choice of typeface is foundational in setting the tone of your
             design. Serif fonts, with their classic appeal, lend a touch of
@@ -150,9 +160,7 @@
             a typeface, consider the message you wish to convey and the medium
             through which it will be communicated.
           </p>
-          <h4 class="blog-categories__title">
-            2. Create a Typographic Hierarchy
-          </h4>
+          <h4 class="blog-title">2. Create a Typographic Hierarchy</h4>
           <p class="blog-content__text">
             A well-defined typographic hierarchy organizes information, making
             it easier for readers to navigate through the content. Use different
@@ -174,7 +182,7 @@
             </p>
             <a class="link" href="#">Get this asset</a>
           </div>
-          <h4 class="blog-categories__title">3. Experiment with Alignment</h4>
+          <h4 class="blog-title">3. Experiment with Alignment</h4>
           <p class="blog-content__text">
             While center and right alignments have their place, left-aligned
             text is generally the most legible and comfortable for readers,
@@ -182,7 +190,7 @@
             experimenting with different alignments in headings or callouts to
             add dynamism to your layout.
           </p>
-          <h4 class="blog-categories__title">4. Embrace White Space</h4>
+          <h4 class="blog-title">4. Embrace White Space</h4>
           <p class="blog-content__text">
             White space, or negative space, is a powerful tool in typography. It
             helps in decluttering designs and allows each typographic element to
@@ -222,7 +230,7 @@
                 />
               </div>
               <span class="label label--blue label--article">TAG</span>
-              <h4 class="article-title">Foodish Delight</h4>
+              <h4 class="article-title">Best Dishes</h4>
               <time datetime="2024-04-15">15 APRIL 2024</time>
             </article>
             <article class="featured-articles__item">

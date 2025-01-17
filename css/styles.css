@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 16px;
-  padding-top: 25px;
+  padding-top: 27px;
   padding-bottom: 24px;
 }
 .header-logo-nav {
@@ -756,13 +756,13 @@ details[open] summary {
 }
 
 .blogs-label {
-  padding: 7px 15px;
+  padding: 6px 10px;
   text-transform: uppercase;
   border-radius: 50px;
   background-color: var(--color-blue);
   color: #f5f8fb;
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .blogs-item__img .blogs-label {
@@ -970,7 +970,7 @@ details[open] summary {
   font-size: 16px;
   line-height: 24px;
   color: rgba(42, 53, 65, 0.85);
-  padding: 37px 0 32px;
+  padding: 7px 0 32px;
   border-top: 2px solid var(--color-dark);
 }
 .blog-categories__title {
@@ -1005,7 +1005,7 @@ details[open] summary {
 }
 .blog-categories__list_alt {
   font-weight: 600;
-  padding: 8px 0 0 27px;
+  padding-top: 7px;
 }
 .blog-article__item {
   padding-bottom: 50px;
@@ -1025,6 +1025,14 @@ details[open] summary {
 }
 .blog-content__text {
   margin: 0 0 32px;
+}
+.blog-title {
+  font: 700 24px / 32px var(--font-secondary);
+  color: var(--color-dark);
+  margin-bottom: 16px;
+}
+.blog-content__description {
+  margin: 0;
 }
 .blog-content__label {
   display: flex;
@@ -1047,7 +1055,7 @@ details[open] summary {
   font: 700 24px/32px var(--font-secondary);
   color: var(--color-dark);
   position: relative;
-  padding-left: 80px;
+  padding: 8px 0 0 80px;
   margin: 0 0 31px;
 }
 .blockquote__text::before {
@@ -1057,7 +1065,7 @@ details[open] summary {
   left: 0;
   width: 47px;
   height: 36px;
-  padding: 5px 8px;
+  padding: 1px 2px;
   z-index: 2;
 }
 .blog-content__text_alt {
@@ -1068,8 +1076,8 @@ details[open] summary {
 }
 .featured-articles {
   background-color: rgba(240, 246, 253);
-  padding: 40px 0 40px;
-  margin-bottom: 120px;
+  padding: 54px 0 40px;
+  margin-bottom: 183px;
 }
 .featured-articles__box {
   display: flex;
@@ -1123,8 +1131,8 @@ details[open] summary {
 .label--article {
   position: absolute;
   z-index: 2;
-  bottom: 94px;
-  left: 37px;
+  bottom: 96px;
+  left: 36px;
 }
 .article-title {
   font: 700 20px/26px var(--font-secondary);
@@ -1374,7 +1382,7 @@ input:checked ~ label::after {
 }
 .heading-blog {
   position: relative;
-  margin-bottom: 96px;
+  margin-bottom: 48px;
   padding-top: 64px;
   background-image: linear-gradient(
     to bottom,
@@ -1416,7 +1424,7 @@ input:checked ~ label::after {
   height: 40px;
   padding: 8px 20px;
   width: 156px;
-  background-position: top 10px right 10px;
+  background-position: top 10px right 21px;
 }
 .dropdown-content {
   display: flex;
@@ -1444,7 +1452,7 @@ input:checked ~ label::after {
   margin-right: 9px;
   display: flex;
   gap: 14px;
-  padding: 5px 10px;
+  padding: 5px 4px;
   cursor: pointer;
   align-items: center;
   font-size: 14px;
@@ -1453,7 +1461,7 @@ input:checked ~ label::after {
 .catalog-list {
   display: flex;
   gap: 31px;
-  row-gap: 30px;
+  row-gap: 28px;
   flex-wrap: wrap;
   position: relative;
 }
@@ -1471,8 +1479,12 @@ input:checked ~ label::after {
     rgba(255, 255, 255, 0.5)
   );
 }
+.catalog-card {
+  position: relative;
+  padding-bottom: 14px;
+}
 .catalog-card__approachless {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .catalog-card__inner {
   position: relative;
@@ -1486,6 +1498,9 @@ input:checked ~ label::after {
   display: flex;
   margin-top: 20px;
   margin-bottom: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: wrap;
 }
 .catalog-card__price {
   display: block;
@@ -1503,6 +1518,13 @@ input:checked ~ label::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  gap: 10px;
+  height: 42px;
 }
 
 .catalog-card__btn {
@@ -1726,6 +1748,6 @@ input[type="range"]::-webkit-slider-thumb {
   display: block;
   margin: 48px auto;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 117px;
+  margin-top: 46px;
+  margin-bottom: 115px;
 }
